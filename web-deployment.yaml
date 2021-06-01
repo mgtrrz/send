@@ -41,6 +41,8 @@ spec:
               value: "172.16.9.31"
             - name: NODE_ENV
               value: "development"
+            - name: S3_BUCKET
+              value: "m9-ffsend-poc"
       imagePullSecrets:
         - name: regcred
       restartPolicy: Always
